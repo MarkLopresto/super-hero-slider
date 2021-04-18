@@ -1,4 +1,4 @@
-# superhero-slider
+# SuperHero Slider
 
 A slider pulling images and text from the [SuperHero API](https://superheroapi.com/index.html).
 
