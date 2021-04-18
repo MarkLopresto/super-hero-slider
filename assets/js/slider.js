@@ -18,7 +18,6 @@ fetch(url, {
 .then((resp) => resp.json())
   .then(data => {
     data.results.forEach(superhero_available => {
-      console.log(superhero_available);
       let photoSlide = createNode('div');
       photoSlide.classList.add('image-slide');
       let photo = createNode('img');
@@ -32,7 +31,6 @@ fetch(url, {
       let bio = createNode('p');
       bio.classList.add('bio');
       bio.innerHTML = `${superhero_available.biography["place-of-birth"]}`
-      console.log(bio);
       append(superHeroFeed, photoSlide);
       append(photoSlide, photo);
       append(photoSlide, photoDesc);
