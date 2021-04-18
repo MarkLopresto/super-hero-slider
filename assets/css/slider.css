@@ -5,6 +5,7 @@
   position: relative;
   margin: 0 auto;
   max-height: 368px;
+  min-height: 368px;
   overflow: hidden;
 }
 
